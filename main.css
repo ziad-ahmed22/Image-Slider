@@ -13,10 +13,30 @@ body {
     border: 3px solid white;
     overflow: hidden;
 }
+@media (max-width:710px) {
+    .container {
+        width: 500px;
+    }
+}
+@media (max-width:510px) {
+    .container {
+        width: 350px;
+    }
+}
 .images {
     position: relative;
     width: 700px;
     height: 400px;
+}
+@media (max-width:710px) {
+    .images {
+        height: 300px;
+    }
+}
+@media (max-width:510px) {
+    .images  {
+        height: 225px;
+    }
 }
 .slide-num {
     position: absolute;
@@ -27,6 +47,12 @@ body {
     padding: 8px;
     border-radius: 5px;
     z-index: 55;
+}
+@media (max-width:710px) {
+    .slide-num {
+        padding: 4px;
+        font-size: 14px;
+    }
 }
 .images img {
     position: absolute;
@@ -64,6 +90,13 @@ body {
     -ms-transition: .5s;
     -o-transition: .5s;
 }
+@media (max-width:710px) {
+    .controls button {
+        width: 65px;
+        padding: 5px;
+        font-size: 14px;
+    }
+}
 .controls button.disabled {
     background-color:  #5d00ff88;
     cursor: no-drop;
@@ -79,6 +112,12 @@ body {
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
+}
+@media (max-width:710px) {
+    .controls .bullets > span {
+        font-size: 14px;
+        padding: 3px 6px;
+    }
 }
 .controls .bullets > span.active,
 .controls .bullets > span:hover {
