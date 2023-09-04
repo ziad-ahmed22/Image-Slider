@@ -3,4 +3,4 @@
 -	HTML | CSS | Js | Responsive
 
 <hr/>
-<a href="https://ziad-ahmed22.github.io/Image_Slider/">Live View</a>
+<a href="https://ziad-ahmed22.github.io/Image-Slider/">Live View</a>
